@@ -18,7 +18,7 @@ Code you paste runs in a subprocess, and its working directory is `--data-dir` (
 the current directory), so `pd.read_csv("data/orders.csv")` resolves relative to it.
 Only run this locally: the tool executes the code you give it.
 
-### Upload datasets
+### Uploading datasets
 
 Drop CSV, TSV, Parquet or JSON/JSONL files on the editor (or use **Upload**). Each file
 becomes a variable named after it: `Q3 Orders.csv` → `q3_orders`. Click a dataset chip to
